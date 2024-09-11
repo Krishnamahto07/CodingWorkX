@@ -1,0 +1,7 @@
+/* sign up CSS */
+.left-section{
+    background-image: linear-gradient(to left bottom,#223491,#050A24,#223491);
+}
+.signup-container {
+    overflow-x: hidden;
+}

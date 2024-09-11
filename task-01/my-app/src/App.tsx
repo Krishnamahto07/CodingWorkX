@@ -7,8 +7,12 @@ function App() {
   return (
     <div className="wrapper">
       <Routes>
-        <Route path='/login' element={<Login />} />
-        <Route path='/signup' element={<Signup />} />
+        <Route path='/'>
+          <Route   index element={<Login />} />
+          <Route path='signup' element={<Signup />} />
+
+        </Route>
+        {/* <Route path='/' element={<>Home Page</>} /> */}
       </Routes>
     </div>
   );
