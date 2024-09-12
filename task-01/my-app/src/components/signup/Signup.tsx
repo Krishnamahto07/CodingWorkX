@@ -7,10 +7,11 @@ function Signup() {
     
 
   return (
-    <div className='signup-container w-[100vw]  '>
+    <div className='signup-container w-[100%] h-auto'>
 
         <div className=' 
-            w-[100vw] h-[100vh] grid  md:grid-cols-2 grid-rows-2 md:mb-0 mb-5' >
+        
+            w-[100%] h-[100%]  flex lg:flex-row flex-col  ' >
 
             <LeftSignup />
 

@@ -2,7 +2,10 @@
 
 function LeftSignup() {
   return (
-    <div className='left-section w-[100%] h-[30%] md:h-[100vh]
+    //     // h-[30%] md:h-[100vh]
+
+    <div className=' left-section w-[100%] 
+        h-[11vh] md:h-auto
         md:pl-[80px] pl-[15px] pr-[72px] md:pt-[64px] pt-[15px] pb-[80px] 
         '>
         
@@ -16,8 +19,8 @@ function LeftSignup() {
                 <span className='text-sky-200'> . </span>
             </span>
 
-            <div className='max-w-[568px] md:block hidden text-[#FFFFFF] font-[300px] 
-                italic leading-[67px] text-[56px] '>
+            <div className='  max-w-[568px] md:block hidden text-[#FFFFFF] font-[300px] 
+                italic leading-[67px] text-[56px] md:mt-[10vh] '>
                 <p>Welcome.</p>
                 <p>Start your journey now with our management system</p>
             </div>

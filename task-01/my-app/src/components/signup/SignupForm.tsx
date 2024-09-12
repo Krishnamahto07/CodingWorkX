@@ -36,14 +36,15 @@ function SignupForm() {
     const [show ,setShow] = useState<boolean>(false);
     const [confirmPasswordShow , setConfirmPasswordShow] = useState<boolean>(false);
   return (
-    <div className='right-section w-full  text-[#101828] flex flex-col items-center justify-center gap-5  '>
+    <div className=' 
+    right-section w-full  text-[#101828] flex flex-col items-center justify-center gap-5 my-5 '>
                 <h1 className='  text-[28px] font-[600px] text-[#101828]  leading-[28px]  
                 md:text-start text-center
                 md:w-[400px] w-full'>Create an account</h1>
 
-                <div className=' scrollbar
-                md:w-[400px] w-full md:h-[428px] h-[100%]
-                overflow-y-scroll
+                <div className=' 
+                md:w-[400px] w-full  h-[100%]
+                
                 
                 flex flex-col  md:justify-start 
                 justify-center md:items-start items-center gap-[32px] 
