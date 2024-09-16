@@ -1,18 +1,16 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Login from './components/Login/Login';
-import Signup from './components/signup/Signup';
+import Login from './components/loginPage/Login';
+import Signup from './components/signupPage/Signup';
 
 function App() {
   return (
-    <div className="wrapper">
+    <div className="wrapper"> {/* main Parent div for all the pages */}
       <Routes>
         <Route path='/'>
-          <Route   index element={<Login />} />
-          <Route path='signup' element={<Signup />} />
-
+          <Route   index element={<Login />} /> {/* Default Page as Login Page */}
+          <Route path='signup' element={<Signup />} /> {/* Signup page on signup url */}
         </Route>
-        {/* <Route path='/' element={<>Home Page</>} /> */}
       </Routes>
     </div>
   );

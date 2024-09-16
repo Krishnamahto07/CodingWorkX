@@ -1,9 +1,12 @@
+/* Tailwind link with react app */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300');
+
+/* google font Poppins Link */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300'); 
+ 
 
 *{
-    /* font-family: 'Poppins'; */
     font-family: 'Poppins','Comfortaa', sans-serif;
 }
